@@ -1,0 +1,21 @@
+[project]
+name = "stacks-dao-governance"
+description = "Decentralized Autonomous Organization framework for Stacks"
+authors = ["serayd61"]
+telemetry = false
+cache_dir = ".cache"
+
+[contracts.governance-token]
+path = "contracts/governance-token.clar"
+
+[contracts.proposal-manager]
+path = "contracts/proposal-manager.clar"
+
+[contracts.treasury-manager]
+path = "contracts/treasury-manager.clar"
+
+[contracts.timelock]
+path = "contracts/timelock.clar"
+
+[repl.analysis]
+passes = ["check_checker"]
