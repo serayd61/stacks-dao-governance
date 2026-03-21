@@ -269,3 +269,20 @@
 ### Fixed
 - Minor bug fixes
 - Type corrections
+
+
+
+## [1.0.37] - 2026-03-21T20:27:43.137Z
+
+### Added
+- New utility functions
+- Improved documentation
+- Additional test coverage
+
+### Changed
+- Updated dependencies
+- Improved error handling
+
+### Fixed
+- Minor bug fixes
+- Type corrections
